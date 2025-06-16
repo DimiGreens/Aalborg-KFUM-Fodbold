@@ -206,99 +206,30 @@
             alt="Nordjyskebank logo"
         /></a>
       </article>
-
       <div class="allKortMaalsaetninger">
-        <!--Det card man kan se paa siden-->
-        <div class="ordenlighedCard">
-          <div class="ordenlighed cardMaal" onclick="aabenOrdenlighed()">
-            <!--Det kort man med onclick henter det underlaegende information-->
+        <div class="ordenlighedCard cardMaal" id="ordenlighed">
             <div class="effekte"></div>
             <img
               src="./assets/pictures/picMaalsaetninger/ordenlighedBillede.png"
               alt="Ordenlighed billede"
             />
             <p>Ordenlighed</p>
-          </div>
         </div>
-
-        <!--Det card der skal foldes ud-->
-        <div class="ordenlighedPopup popupCardMaal" id="ordenlighedinfo">
-          <!--ordenlighedinfo er det der skal hentes-->
-          <article class="ordenlighedIndhold maalIndehold">
-            <img
-              src="./assets/pictures/picMaalsaetninger/ordenlighedBillede.png"
-              alt="Ordenlighed billede"
-            />
-            <h3>Ordenlighed</h3>
-            <p>
-              Vi respekterer hinanden, medspillere som modspillere samt dommere,
-              så fodbold bliver en god oplevelse. Vi forventer at alle forældre
-              overholder DBU’s forældreråd, og trænerne overholder “Den gode
-              træner” (se “Den blå tråd”) og altid husker på, at vi
-              repræsenterer Aalborg KFUM i træning og kamp.
-            </p>
-            <button class="lukKnap" onclick="lukOrdenlighed()">Luk</button
-            ><!--Naar man cliker paa denne knap bilver korted igen lukkede-->
-          </article>
-        </div>
-
-        <div class="faellesskabCard">
-          <div class="faellesskab cardMaal" onclick="aabenFaellesskab()">
+        <div class="faellesskabCard cardMaal" id="faellesskab">
             <div class="effekte"></div>
             <img
               src="./assets/pictures/picMaalsaetninger/faellesskabBillede.png"
               alt="Fællesskab billede"
             />
             <p>Fællesskab</p>
-          </div>
         </div>
-
-        <div class="faellesskabPopup popupCardMaal" id="faellesskabinfo">
-          <article class="faellesskabIndhold maalIndehold">
-            <img
-              src="./assets/pictures/picMaalsaetninger/faellesskabBillede.png"
-              alt="Fællesskab billede"
-            />
-            <h3>Fællesskab</h3>
-            <p>
-              Vi lægger vægt på kammeratskab og sammenhold, og vi har fokus på
-              at skabe et godt sportsligt og socialt miljø. Foreningen er i sig
-              selv et fællesskab. Alle yder selv en aktiv indsats for at styrke
-              foreningen og fællesskabet og engagerer sig som frivillig i at få
-              fællesskabet til at vokse. Foreningen er større end holdet – og
-              holdet er større end individet.
-            </p>
-            <button class="lukKnap" onclick="lukFaellesskab()">Luk</button>
-          </article>
-        </div>
-
-        <div class="udviklingCard">
-          <div class="udvikling cardMaal" onclick="aabenUdvikling()">
+          <div class="udviklingCard cardMaal" id="udvikling">
             <div class="effekte"></div>
             <img
               src="./assets/pictures/picMaalsaetninger/udviklingBillede.png"
               alt="Udvikling billede"
             />
             <p>Udvikling</p>
-          </div>
-        </div>
-        <div class="udviklingPopup popupCardMaal" id="udviklinginfo">
-          <article class="udviklingIndhold maalIndehold">
-            <img
-              src="./assets/pictures/picMaalsaetninger/udviklingBillede.png"
-              alt="Udvikling billede"
-            />
-            <h3>Udvikling</h3>
-            <p>
-              Vi tilstræber et miljø, hvor vi udfordrer hinanden – menneskeligt
-              og sportsligt – og yder alle en fair behandling. Vi har fokus på
-              det mentale (trivsel, glæde, motivation og kompetence) i forhold
-              til udvikling af holdet, den enkelte spiller, samt fokus på, at vi
-              kontinuerligt udvikler klubben med det formål at fastholde flest
-              muligt i fodbolden.
-            </p>
-            <button class="lukKnap" onclick="lukUdvikling()">Luk</button>
-          </article>
         </div>
       </div>
       <section class="slider sponsorSlider">

@@ -742,10 +742,8 @@ footer hr {
 /*maal indhold*/
 
 .popupCardMaal {
-    /*dette card kan ikke ses for man cliker paa det*/
-    display: none;
     position: absolute;
-    top: 170px;
+    top:240px
 }
 
 .udviklingPopup img {
@@ -762,14 +760,14 @@ footer hr {
     margin: var(--mSpacer);
     width: 20rem;
     height: 20rem;
-    position: relative;
     border: 0.1rem solid black;
     box-shadow: 5px 5px 6px gray;
 }
 
-
-.udviklingIndhold {
-    height: 22rem;
+.maalIndehold img{
+    width: 19.84rem;
+    height: 5rem;
+    object-fit: cover;
 }
 
 .maalIndehold h3 {
@@ -791,16 +789,13 @@ footer hr {
 .lukKnap:hover {
     background-color: hsl(328, 77%, 88%);
 }
-.ordenlighedPopup{
-    top: 53.5vw;
-}
 
 .faellesskabPopup{
-    top: 143vw;
+    top: 154vw;
 }
 
 .udviklingPopup{
-    top: 235vw;
+    top: 242vw;
 }
 
 /* Samantas CSS */
@@ -1085,17 +1080,18 @@ padding-top: 2.5rem;
     flex-wrap: wrap;
 }
 .ordenlighedPopup{
-    top: 22vw;
-    left: 2vw;
+    top: 25.5vw;
+    left: 1vw;
 }
 
 .faellesskabPopup{
-    top: 22vw;
-    left: 52vw;
+    top: 25.5vw;
+    left: 51.3vw;
 }
 
 .udviklingPopup{
-    top: 66vw;
+    top: 73vw;
+    left: 26vw;
 }
 
 .introSektion{
@@ -1675,20 +1671,20 @@ margin: 1.5rem 20rem;
 }
 
 /*maalseatninger*/
+.popupCardMaal{
+    top: 19.6vw;
+}
 .ordenlighedPopup{
-    top: 21.5vw;
-    left: 0vw;
+    left: 2vw;
 }
 
 .faellesskabPopup{
-    top: 21.5vw;
-    left: 33.5vw;
+    left: 34.9vw;
 }
 
 .udviklingPopup{
-    top: 21.5vw;
-    left: 66.5vw;
-} 
+    left: 67.9vw;
+}
 
 .allKortMaalsaetninger{
        margin-bottom: 10rem; 
