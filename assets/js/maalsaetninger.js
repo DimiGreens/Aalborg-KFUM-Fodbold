@@ -22,7 +22,7 @@ function ordFunction() {
   );
   document
     .querySelector('.ordenlighedPopup .lukKnap')
-    .addEventListener('click', (e) => e.currentTarget.closest('.ordenlighedPopup').remove());
+    .addEventListener('click', (knap) => knap.currentTarget.closest('.ordenlighedPopup').remove());
 }
 
 //Faelleskab 
@@ -51,7 +51,7 @@ function faelFunction() {
   );
   document
     .querySelector('.faellesskabPopup .lukKnap')
-    .addEventListener('click', (e) => e.currentTarget.closest('.faellesskabPopup').remove());
+    .addEventListener('click', (knap) => knap.currentTarget.closest('.faellesskabPopup').remove());
 }
 
 //Udvikling
@@ -80,5 +80,5 @@ function udvFunction() {
   );
   document
     .querySelector('.udviklingPopup .lukKnap')
-    .addEventListener('click', (e) => e.currentTarget.closest('.udviklingPopup').remove());
+    .addEventListener('click', (knap) => knap.currentTarget.closest('.udviklingPopup').remove());
 }
